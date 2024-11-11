@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Zakat Calculator</h1>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTACT US</li>
+        </ul>
+    </nav>
+    <main>
+        <form method="GET">
+            <div>
+                <label>Enter Gold Amount</label><br>
+                <input class="input-txt" type="number" id="gold-value" >
+            </div>
+            <div>
+                <label>Enter Silver Amount</label><br>
+                <input class="input-txt" type="number" id="silver-value" >
+            </div>
+            <div>
+                <label>Enter Cash on hand</label><br>
+                <input class="input-txt" type="number" id="cash" >
+            </div>
+            <div>
+                <label>Enter Cash in Bank</label><br>
+                <input class="input-txt" type="number" id="bank-cash" >
+            </div>
+            <div>
+                <label>Real Estate Assists </label><br>
+                <input class="input-txt" type="number" id="assests" >
+            </div>
+            <div>
+                <label>Enter Liabilites</label><br>
+                <input class="input-txt" type="number" id="liabilties" >
+            </div>
+            <div>
+                <input type="button" value="Calculate" id="calc-btn" onclick="calculate()">
+            </div>
+            <div>
+                <input class="input-txt" type="text" id="display-result" readonly >
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
